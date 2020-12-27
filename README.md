@@ -1,1 +1,1 @@
-# BduTricks
+# Covid Website
