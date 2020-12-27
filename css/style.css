@@ -34,6 +34,18 @@ a:hover {
 }
 
 
+h1,h2,h3,h4,h5{
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: 1.5rem;
+    margin-bottom: 30px;    
+}
+
+p{
+    margin-bottom: 30px;
+}
+
 
 /* Container and Row */
 
@@ -98,18 +110,12 @@ a:hover {
     width: 100%;
 }
 
-.bdu-header .site-logo {
-    position: relative;
-    left: 0;
-}
-
 
 .bdu-header .header-nav .site-menu>li {
     display: inline-block
 }
 
 .header-nav {
-    position: relative;
     text-align: right;
 }
 
@@ -123,7 +129,6 @@ a:hover {
     margin-top: 20px;
     margin-left: 0;
     background: #fff;
-    transition: .2s 0s
 }
 
 
@@ -159,7 +164,6 @@ a:hover {
 
 
 .header-items {
-    position: relative;
     width: 100%;
     padding-right: 15px;
     padding-left: 15px;
@@ -218,7 +222,6 @@ a:hover {
     padding-right: 15px;
     padding-left: 15px; 
     text-align: center;
-    margin-right: auto;
 }
 
 .corona-data{
@@ -236,7 +239,6 @@ a:hover {
 
 .what-is{
     margin-left: 10px;
-    width: 100%;
     padding-right: 15px;
     padding-left: 15px; 
     flex: 0 0 42%;
@@ -253,7 +255,6 @@ a:hover {
 /* feature */
 
 .feature{
-    width: 100%;
     padding-right: 15px;
     padding-left: 15px; 
     flex: 0 0 25%;
@@ -290,7 +291,6 @@ a:hover {
 }
 
 .prevent-advice, .first-block, .second-block{
-    width: 100%;
     padding-right: 15px;
     padding-left: 15px;
     flex: 0 0 50%;
@@ -302,7 +302,6 @@ a:hover {
 }
 
 .prevent-content{
-    width: 100%;
     padding-right: 15px;
     padding-left: 15px;
     flex: 0 0 42%;
@@ -342,7 +341,6 @@ a:hover {
 }
 
 .protect-advices, .protect-advices-do, .protect-advices-dont, .protect-image{
-    width: 100%;
     padding-right: 15px;
     padding-left: 15px; 
     flex: 0 0 50%;
@@ -387,14 +385,12 @@ a:hover {
 }
 
 .symp-commmet{
-    width: 100%;
     padding-right: 15px;
     padding-left: 15px; 
     flex: 0 0 83%;
 }
 
 .comment{
-    width: 100%;
     padding-right: 15px;
     padding-left: 15px; 
     flex: 0 0 66%;
@@ -402,7 +398,6 @@ a:hover {
 }
 
 .symp-button{
-    width: 100%;
     padding-right: 15px;
     padding-left: 15px;
     flex: 0 0 33%;
@@ -413,7 +408,6 @@ a:hover {
 
 /* News Section */
 .news-title{
-    width: 100%;
     padding-right: 15px;
     padding-left: 15px;
     flex: 0 0 58%;
@@ -427,7 +421,6 @@ a:hover {
 }
 
 .news-content{
-    width: 100%;
     padding-right: 15px;
     padding-left: 15px;
     flex: 0 0 33%;
@@ -445,7 +438,6 @@ a:hover {
 }
 
 .covid-footer-title{
-    width: 100%;
     padding-right: 15px;
     padding-left: 15px;
     flex: 0 0 33%;
@@ -509,13 +501,12 @@ footer-list{
 
 .trade-mark{
     text-align: center;
+    margin-top: 20px;
 }
 
 .tmark{
-    position: relative;
-    width: 100%;
     padding-right: 15px;
     padding-left: 15px;
     flex: 0 0 100%;
-    max-width: 100%
+    margin-top: 20px;
 }
