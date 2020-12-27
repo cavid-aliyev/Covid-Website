@@ -21,16 +21,15 @@ ul{
 }
 
 
-a {
+a{
     color: #6f42c1;
     text-decoration: none;
     background-color: transparent;
 }
 
 a:hover {
-    text-decoration: none;
     color: #4e2d89;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 
@@ -39,7 +38,7 @@ h1,h2,h3,h4,h5{
     font-weight: 500;
     line-height: 1.2;
     font-size: 1.5rem;
-    margin-bottom: 30px;    
+    margin-bottom: 30px;
 }
 
 p{
@@ -81,6 +80,12 @@ p{
     padding: 10px 30px;
     color: #fff;
     background-color: #6f42c1;
+    transition: all;
+    transition-duration: 0.3s;
+}
+
+.covid-button:hover{
+    background-color:  #8e79b4;
 }
 
 
@@ -103,7 +108,8 @@ p{
 /* navbar */
 
 .bdu-header {
-    margin-bottom: 0;
+    display: flex;
+    margin-top: 20px;
     z-index: 1999;
     position: absolute;
     top: 0;
@@ -120,6 +126,10 @@ p{
 }
 
 
+.site-menu{
+    margin-left: 30px;
+}
+
 .dropdown {
     visibility: hidden;
     position: absolute;
@@ -129,7 +139,9 @@ p{
     margin-top: 20px;
     margin-left: 0;
     background: #fff;
+    transition-duration: 0.3s;
 }
+
 
 
 .dropdown a {
@@ -139,12 +151,6 @@ p{
     color: #000
 }
 
-.dropdown>li {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    min-width: 210px
-}
 
 .dropdown>li>a {
     padding: 9px 20px;
@@ -156,6 +162,14 @@ p{
     color: #000
 }
 
+.nav-link{
+    margin: 0px 10px;
+    text-decoration: none;
+}
+
+.nav-link:hover{
+    text-decoration: none;
+}
 
 .bdu-header .header-nav .site-menu .has-children:hover>.dropdown {
     margin-top: 0;
@@ -167,8 +181,9 @@ p{
     width: 100%;
     padding-right: 15px;
     padding-left: 15px;
-    flex: 0 0 80%;
+    flex: 1 0 80%;
 }
+
 
 
 
@@ -194,8 +209,17 @@ p{
     flex: 0 0 50%;
 }
 
-.exam-left p {
-    margin-bottom: 30px;
+.exam-left{
+    margin-left: -15px;
+}
+
+.exam-left span {
+    margin-bottom: 10px;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: rgba(111,66,193,.5);
+    letter-spacing: .1rem;
+    font-weight: 900;
 }
 
 .exam-left h1 {
@@ -212,6 +236,12 @@ p{
 
 
 /* Statistic section */
+
+.coronastat-heading{
+    font-size: 30px;
+    font-weight: 900;
+    color: #6f42c1;
+}
 
 .corona-text{
     margin-bottom: 30px;
@@ -231,8 +261,31 @@ p{
 
 .number{
     display: block;
+    font-size: 2rem;
+    color: #000;
+    font-weight: 900;
 }
 
+.data span{
+    display: inline-block;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+    
+}
+
+
+.label{
+    padding-right: 15px;
+    padding-left: 27px;
+    color: #aaa;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: .1rem;
+    font-weight: 700;
+    text-align: center;
+}
 
 
 /* What is corona */
@@ -245,6 +298,13 @@ p{
 }
 
 .whatis-heading{
+    margin-bottom: 40px;
+    font-size: 30px;
+    font-weight: 900;
+    color: #6f42c1;
+}
+
+.what-ul{
     margin-bottom: 40px;
 }
 
@@ -290,6 +350,25 @@ p{
     align-items: center; 
 }
 
+
+.precontent{
+    box-shadow: 0 15px 30px 0 rgba(0,0,0,.05);
+    border-radius: 7px;
+    overflow: hidden;
+    margin-bottom: 30px;
+    background: #fff;
+    box-shadow: 4px 5px 3px 3px rgb(177, 163, 163);
+}
+
+.precontent .icon-wrap{
+    height: 140px;
+    width: 100%;
+    background: #6f42c1;
+    text-align: center;
+    position: relative;
+}
+
+
 .prevent-advice, .first-block, .second-block{
     padding-right: 15px;
     padding-left: 15px;
@@ -298,7 +377,7 @@ p{
 }
 
 .first-block{
-    margin-top: 40px;
+    margin-top: 60px;
 }
 
 .prevent-content{
@@ -310,6 +389,9 @@ p{
 
 .prevent-heading{
     margin-bottom: 40px;
+    font-size: 30px;
+    font-weight: 900;
+    color: #6f42c1;
 }
 
 .prevent-text{
@@ -353,8 +435,10 @@ p{
 
 
 /* Symptoms section */
+
 .symp-title{
     margin-bottom: 50px;
+    
 }
 
 .symptoms-title{
@@ -369,16 +453,30 @@ p{
 
 .symp-heading{
     margin-bottom: 40px;
+    font-size: 30px;
+    font-weight: 900;
+    color: #6f42c1;
 }
   
+
 .symp-content{
     display: flex;
     width: 100%;
-    padding-right: 15px;
-    padding-left: 15px; 
+    padding: 30px;
     flex: 0 0 50%;
     margin-bottom: 40px;
+    background: #fff;
 }
+
+.symp-text h3{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.symp-text{
+    font-size: 10px;
+}
+
 
 .symp-all-comments{
     justify-content: center;
@@ -418,6 +516,9 @@ p{
 
 .news-heading{
     margin-bottom: 40px;
+    font-size: 30px;
+    font-weight: 900;
+    color: #6f42c1;
 }
 
 .news-content{
@@ -501,7 +602,6 @@ footer-list{
 
 .trade-mark{
     text-align: center;
-    margin-top: 20px;
 }
 
 .tmark{
