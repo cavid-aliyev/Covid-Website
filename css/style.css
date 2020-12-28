@@ -610,3 +610,60 @@ footer-list{
     flex: 0 0 100%;
     margin-top: 20px;
 }
+
+.tmark>p{
+    margin-bottom: 0;
+}
+
+
+
+/* Media needs */
+@media(max-width: 609px){
+    .site-menu{
+        display: none;
+    }
+}
+
+
+
+@media(max-width:375px){
+    .number{
+        font-size: 20px;
+    }
+
+    .covid-image img{
+        width: 350px;
+        height: 200px;
+    }
+
+    .what-is{
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .prevent-advice, .first-block, .second-block {
+        padding-right: 15px;
+        padding-left: 15px;
+        flex: 1 0 51%;
+        max-width: 100%;
+    }
+
+    .prevent-content{
+        flex: 0 0 86%
+    }
+
+    .protect-advices, .protect-advices-do, .protect-advices-dont, .protect-image {
+        padding-right: 15px;
+        padding-left: 15px;
+        flex: 1 0 51%;
+        margin-bottom: 10px;
+    }
+
+    .news-content{
+        padding-right: 15px;
+        padding-left: 15px;
+        flex: 0 0 100%;
+    }
+
+}
