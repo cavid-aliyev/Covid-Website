@@ -632,14 +632,25 @@ footer-list{
     }
 
     .covid-image img{
-        width: 350px;
+        width: 317px;
         height: 200px;
+    }
+
+    .covid-button{
+        margin-right: 50px;
     }
 
     .what-is{
         text-align: center;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    .symp-content{
+        flex: 0 0 100%;
+    }
+    .comment{
+        flex: 0 0 100%;
     }
 
     .prevent-advice, .first-block, .second-block {
@@ -666,4 +677,7 @@ footer-list{
         flex: 0 0 100%;
     }
 
+    .covid-footer-title{
+        flex: 0 0 100%
+    }
 }
